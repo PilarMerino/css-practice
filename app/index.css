@@ -1,0 +1,226 @@
+.nav {
+  background-color: rgb(255, 255, 255); 
+  list-style-type: none;
+  text-align: right;
+  margin: 0;
+  padding: 5;
+  top: 40px;
+  box-shadow: 0 1px 5px 1px rgb(99, 158, 226);
+}
+
+.div-one-h1 {
+  color: rgb(19, 9, 87);
+  font-size: 60px;
+}
+
+.a-nav {
+  display: inline-block;
+  font-size: 23px;
+  padding: 40px;
+  text-align: right;
+  text-decoration:none;
+  font-weight: 700;
+  top: 40px;
+  color: dimgray;
+}
+ 
+.p-big-text {
+  color: dimgray;
+  font-size: 20px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.img-logo {
+  position: absolute;
+   text-align: left;
+   top: 50px;
+   left: 90px;
+ }
+ 
+ .img-vacuna-sec1 {
+  position:absolute; 
+  right: 20px;
+  top: 130px;
+  width: 653px;
+  height: 650px;
+ }
+
+ .section-one {
+   display:flex;
+   width:  1000px;
+   height: 1000px;
+   top: 150px;
+ }
+ .div-one{
+   position: absolute;
+   width: 400px;
+   height: 100px;
+   left: 90px;
+  text-align: center;
+ }
+ .p-small-text{
+   color: rgb(5, 5, 77);
+   font-size: 15px;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+ }
+ .container-one{
+  display: flex;
+  gap: 10px;
+}
+.container-two{
+  display: flex;
+  position: absolute;
+  gap: 10px;
+  top:475px;
+  left: 9px;
+}
+.container-trhee{
+  display: flex;
+  position: absolute;
+  gap: 30px;
+  top: 540px;
+  width: 800px;
+  height: 100px;
+  border-color: rgb(236, 178, 101);
+  background-color: rgb(252, 252, 252);
+  z-index: 2;
+  align-items: center;
+  border: 3px;
+  box-shadow: 0 1px 5px 1px rgb(198, 201, 62);
+}
+.button-submit{
+  background-color: rgb(61, 61, 223);
+  border-radius: 5px;
+  width: 150px;
+  height: 60px;
+  font-size: 20px;
+  color: antiquewhite;
+  font-weight: 30px;
+
+}
+
+.img-small-icon{
+  width: 40px;
+  height: 40px;
+}
+
+.section-brands{
+  position: absolute;
+  width: 1000px;
+  height: 300px;
+  top: 830px;
+  left: 70px;
+}
+
+.continer-info{
+  display: flex;
+  position: relative;
+  gap: 35px;
+  left: 60px;
+}
+.div-info-vaccines {
+  display: table-column;
+  position: relative;
+  border: 2px;
+  border-radius: 2px;
+  box-shadow: 0 4px 5px 2px rgb(226, 206, 226);
+  width: 250px;
+
+}
+
+.p-div-info{
+  color: dimgray;
+  font-size: 18px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-weight: 5px;
+}
+.p-div-preparations {
+  color: rgb(34, 4, 88);
+  font-size: 20px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-weight: 10px;
+}
+
+h3 {
+  color: rgb(33, 44, 167);
+  font-size: 20px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+}
+
+h2 {
+  color: rgb(3, 15, 145);
+  font-size: 40px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.img-third-section{
+  position: absolute;
+  width: 653px;
+  height: 700px;
+  top: 1500px;
+}
+
+.container-in-column{
+  position: absolute;
+  display: table-column;
+  right: 120px;
+  top: 1700px;
+  gap:40px;
+}
+
+.section-contact {
+  position: relative;
+  top: 1260px;
+  width:  1400px;
+  height: 1000px;
+  left: 70px;
+}
+.container-contact{
+  display: flex;
+  gap: 10px;
+}
+.group-contact{
+display:table-column; 
+gap: 20px;
+padding: 10px;
+}
+.img-sec-four {
+  position: absolute;
+  height: 500px;
+  width: 600px;
+  top: 1px;
+  right: 0;
+  border-radius: 30px;
+ }
+
+ .button-contact {
+  border-radius: 6px;
+  width: 160px; 
+  height: 50px;
+  background-color: rgb(5, 5, 116);
+  color: aliceblue;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 30px;
+  font-size: 20px;
+}
+.div-footer {
+  display: table-column;
+  gap: 10px;
+  width: 210px;
+}
+.a-footer {
+  font-size: 20px;
+  text-decoration:none;
+  font-weight: 700;
+  color: dimgray;
+}
+
+footer{
+   display: flex;
+   position:absolute;
+   gap: 100px;
+   width: 1700px;
+   height: 340px;
+   background-color: rgb(236, 241, 245);
+   top: 2950px;
+ }
+
